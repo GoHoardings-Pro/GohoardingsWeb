@@ -7,9 +7,8 @@ import Footer from '../../Components/Headers/Footer/Footer'
 const Home = () => {
   return (
     <>
-      <Nav />
-      <div className='home_container'>
-        <div className="home_titles">
+    <div className='home_container row'>
+        <div className="home_titles col-5">
           <div className="home_title">
             <h1>India's <br />Largest Outdoor <br />Advartising Agency</h1>
 
@@ -23,9 +22,10 @@ const Home = () => {
             <Link to={'/'}>Lorme</Link>
           </div>
         </div>
-        <div className="home_banner">
+        <div className="home_banner col-5 ">
+          
           <img src="/asserts/images/Homepage_Banner01.png" alt="" />
-          <svg width="318" height="200" viewBox="0 0 318 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg className='svgBanner' width="318" height="200" viewBox="0 0 318 200" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M3.75006 7.69304C5.64992 7.69304 7.19006 6.15726 7.19006 4.26278C7.19006 2.3683 5.64992 0.83252 3.75006 0.83252C1.8502 0.83252 0.310059 2.3683 0.310059 4.26278C0.310059 6.15726 1.8502 7.69304 3.75006 7.69304Z" fill="#808080" />
             <path d="M55.0699 7.69304C56.9697 7.69304 58.5099 6.15726 58.5099 4.26278C58.5099 2.3683 56.9697 0.83252 55.0699 0.83252C53.17 0.83252 51.6299 2.3683 51.6299 4.26278C51.6299 6.15726 53.17 7.69304 55.0699 7.69304Z" fill="#808080" />
             <path d="M106.38 7.69304C108.28 7.69304 109.82 6.15726 109.82 4.26278C109.82 2.3683 108.28 0.83252 106.38 0.83252C104.48 0.83252 102.94 2.3683 102.94 4.26278C102.94 6.15726 104.48 7.69304 106.38 7.69304Z" fill="#808080" />
@@ -65,11 +65,12 @@ const Home = () => {
           </svg>
 
         </div>
-      </div>
-      <div className="section_container">
-        <div className="section_divider">
-          <strong>IMPACT WHERE IT MATTERS</strong>
-          <hr />
+    </div>
+      <div className="section_container section_get">
+        <div className=" section_Impact">
+
+          <strong> <hr  />IMPACT WHERE IT MATTERS<hr /></strong>
+    
         </div>
         <div className="section_title ">
           <strong>WE GET YOU INDIA</strong>
@@ -104,26 +105,31 @@ const Home = () => {
         </div>
         <div className="section_square_fream  m-auto">
 
-          <div className="row">
+          <div className="row ">
 
             <div className=" col-4 col-md-4 frame-square">
+                <img src="/asserts/icons/billboard (2) (1).png" alt="" />
 
             </div>
             <div className=" col-4 col-md-4 frame-square">
+                <img src="/asserts/icons/shopping-mall.png" alt="" />
 
             </div>
             <div className=" col-4 col-md-4 frame-square">
-
+                <img src="/asserts/icons/home-office.png" alt="" />
             </div>
           </div>
-          <div className="row">
+          <div className="row ">
             <div className="col-4 col-md-4 frame-square">
+                <img src="/asserts/icons/lounge.png" alt="" />
 
             </div>
             <div className=" col-4 col-md-4 frame-square">
+                <img src="/asserts/icons/billboard (1).png" alt="" />
 
             </div>
             <div className=" col-4 col-md-4 frame-square">
+                <img src="/asserts/icons/delivery-truck.png" alt="" />
 
             </div>
           </div>
@@ -143,8 +149,8 @@ const Home = () => {
             <div className="work_card_play play_previous">
               <i class="fa-solid fa-angle-left"></i>
             </div>
-            <div className="img">
-
+            <div className="imgss">
+              <img src="\asserts\images\Homepage_Banner03.png" alt="" />
             </div>
             <div className="work_card_play play_next">
               <i class="fa-solid fa-angle-right"></i>
@@ -246,7 +252,7 @@ const Home = () => {
         <div className="section_title mt-5 ">
           <strong>UPDATES</strong>
         </div>
-
+{/* 
         <div class="hexagon-gallery">
       <div class="hex"><img src="https://images.pexels.com/photos/1421264/pexels-photo-1421264.jpeg?cs=srgb&dl=aerial-aerial-photo-aerial-photography-1421264.jpg&fm=jpg" alt="some"/></div>
       <div class="hex"></div>
@@ -261,7 +267,155 @@ const Home = () => {
       <div class="hex"></div>
       <div class="hex"></div>
       <div class="hex"></div>
-    </div>
+       </div> */}
+       <div class="grid">
+        <ul id="hexGrid">
+          <li class="hex">
+            <div class="hexIn">
+              <a class="hexLink" href="#">
+                <div className='img'><img src="/asserts/companyIcon/01.png" alt="" /></div>
+                {/* <div class='img' style='background-image:url(https://images.unsplash.com/photo-1417436026361-a033044d901f?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;w=1080&amp;fit=max&amp;s=faa4e192f33e0d6b7ce0e54f15140e42);'></div> */}
+                <h1 id="demo1">This is a title</h1>
+                <p id="demo2">Some sample text about the article this hexagon leads to</p>
+              </a>
+            </div>
+          </li>
+          <li class="hex">
+            <div class="hexIn">
+              <a class="hexLink" href="#">
+             
+              <div className='img'><img src="/asserts/images/Homepage_Banner01.png" alt="" /></div>
+                {/* <div class='img' style='background-image:url(https://images.unsplash.com/photo-1417436026361-a033044d901f?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;w=1080&amp;fit=max&amp;s=faa4e192f33e0d6b7ce0e54f15140e42);'></div> */}
+                <h1 id="demo1">This is a title</h1>
+                <p id="demo2">Some sample text about the article this hexagon leads to</p>
+              </a>
+            </div>
+          </li>
+          <li class="hex">
+            <div class="hexIn">
+              <a class="hexLink" href="#">
+              <div className='img'><img src="/asserts/images/Homepage_Banner01.png" alt="" /></div>
+                {/* <div class='img' style='background-image:url(https://images.unsplash.com/photo-1417436026361-a033044d901f?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;w=1080&amp;fit=max&amp;s=faa4e192f33e0d6b7ce0e54f15140e42);'></div> */}
+                <h1 id="demo1">This is a title</h1>
+                <p id="demo2">Some sample text about the article this hexagon leads to</p>
+              </a>
+            </div>
+          </li>
+            
+          <li class="hex">
+            <div class="hexIn">
+              <a class="hexLink" href="#">
+              <div className='img'><img src="/asserts/images/Homepage_Banner01.png" alt="" /></div>
+                    {/* <div class='img' style='background-image: url(https://images.unsplash.com/44/MIbCzcvxQdahamZSNQ26_12082014-IMG_3526.jpg?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;w=1080&amp;fit=max&amp;s=49dab7a5e4b2e28b5707bc2db974c94b);'></div> */}
+                <h1 id="demo1">This is a title</h1>
+                <p id="demo2">Some sample text about the article this hexagon leads to</p>
+              </a>
+            </div>
+          </li>
+          <li class="hex">
+            <div class="hexIn">
+              <a class="hexLink" href="#">
+              <div className='img'><img src="/asserts/images/Homepage_Banner01.png" alt="" /></div>
+                    {/* <div class='img' style='background-image: url(https://images.unsplash.com/44/MIbCzcvxQdahamZSNQ26_12082014-IMG_3526.jpg?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;w=1080&amp;fit=max&amp;s=49dab7a5e4b2e28b5707bc2db974c94b);'></div> */}
+                <h1 id="demo1">This is a title</h1>
+                <p id="demo2">Some sample text about the article this hexagon leads to</p>
+              </a>
+            </div>
+          </li>
+          <li class="hex">
+            <div class="hexIn">
+              <a class="hexLink" href="#">
+              <div className='img'><img src="/asserts/images/Homepage_Banner01.png" alt="" /></div>
+                    {/* <div class='img' style='background-image: url(https://images.unsplash.com/44/MIbCzcvxQdahamZSNQ26_12082014-IMG_3526.jpg?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;w=1080&amp;fit=max&amp;s=49dab7a5e4b2e28b5707bc2db974c94b);'></div> */}
+                <h1 id="demo1">This is a title</h1>
+                <p id="demo2">Some sample text about the article this hexagon leads to</p>
+              </a>
+            </div>
+          </li>
+          <li class="hex">
+            <div class="hexIn">
+              <a class="hexLink" href="#">
+              <div className='img'><img src="/asserts/images/Homepage_Banner01.png" alt="" /></div>
+                    {/* <div class='img' style='background-image: url(https://images.unsplash.com/44/MIbCzcvxQdahamZSNQ26_12082014-IMG_3526.jpg?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;w=1080&amp;fit=max&amp;s=49dab7a5e4b2e28b5707bc2db974c94b);'></div> */}
+                <h1 id="demo1">This is a title</h1>
+                <p id="demo2">Some sample text about the article this hexagon leads to</p>
+              </a>
+            </div>
+          </li>
+          <li class="hex">
+            <div class="hexIn">
+              <a class="hexLink" href="#">
+              <div className='img'><img src="/asserts/images/Homepage_Banner01.png" alt="" /></div>
+                    {/* <div class='img' style='background-image: url(https://images.unsplash.com/44/MIbCzcvxQdahamZSNQ26_12082014-IMG_3526.jpg?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;w=1080&amp;fit=max&amp;s=49dab7a5e4b2e28b5707bc2db974c94b);'></div> */}
+                <h1 id="demo1">This is a title</h1>
+                <p id="demo2">Some sample text about the article this hexagon leads to</p>
+              </a>
+            </div>
+          </li>
+          <li class="hex">
+            <div class="hexIn">
+              <a class="hexLink" href="#">
+              <div className='img'><img src="/asserts/images/Homepage_Banner01.png" alt="" /></div>
+                    {/* <div class='img' style='background-image: url(https://images.unsplash.com/44/MIbCzcvxQdahamZSNQ26_12082014-IMG_3526.jpg?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;w=1080&amp;fit=max&amp;s=49dab7a5e4b2e28b5707bc2db974c94b);'></div> */}
+                <h1 id="demo1">This is a title</h1>
+                <p id="demo2">Some sample text about the article this hexagon leads to</p>
+              </a>
+            </div>
+          </li>
+          <li class="hex">
+            <div class="hexIn">
+              <a class="hexLink" href="#">
+              <div className='img'><img src="/asserts/images/Homepage_Banner01.png" alt="" /></div>
+                    {/* <div class='img' style='background-image: url(https://images.unsplash.com/44/MIbCzcvxQdahamZSNQ26_12082014-IMG_3526.jpg?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;w=1080&amp;fit=max&amp;s=49dab7a5e4b2e28b5707bc2db974c94b);'></div> */}
+                <h1 id="demo1">This is a title</h1>
+                <p id="demo2">Some sample text about the article this hexagon leads to</p>
+              </a>
+            </div>
+          </li>
+          <li class="hex">
+            <div class="hexIn">
+              <a class="hexLink" href="#">
+              <div className='img'><img src="/asserts/images/Homepage_Banner01.png" alt="" /></div>
+                    {/* <div class='img' style='background-image: url(https://images.unsplash.com/44/MIbCzcvxQdahamZSNQ26_12082014-IMG_3526.jpg?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;w=1080&amp;fit=max&amp;s=49dab7a5e4b2e28b5707bc2db974c94b);'></div> */}
+                <h1 id="demo1">This is a title</h1>
+                <p id="demo2">Some sample text about the article this hexagon leads to</p>
+              </a>
+            </div>
+          </li>
+          <li class="hex">
+            <div class="hexIn">
+              <a class="hexLink" href="#">
+              <div className='img'><img src="/asserts/images/Homepage_Banner01.png" alt="" /></div>
+                    {/* <div class='img' style='background-image: url(https://images.unsplash.com/44/MIbCzcvxQdahamZSNQ26_12082014-IMG_3526.jpg?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;w=1080&amp;fit=max&amp;s=49dab7a5e4b2e28b5707bc2db974c94b);'></div> */}
+                <h1 id="demo1">This is a title</h1>
+                <p id="demo2">Some sample text about the article this hexagon leads to</p>
+              </a>
+            </div>
+          </li>
+          <li class="hex">
+            <div class="hexIn">
+              <a class="hexLink" href="#">
+              <div className='img'><img src="/asserts/images/Homepage_Banner01.png" alt="" /></div>
+                    {/* <div class='img' style='background-image: url(https://images.unsplash.com/44/MIbCzcvxQdahamZSNQ26_12082014-IMG_3526.jpg?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;w=1080&amp;fit=max&amp;s=49dab7a5e4b2e28b5707bc2db974c94b);'></div> */}
+                <h1 id="demo1">This is a title</h1>
+                <p id="demo2">Some sample text about the article this hexagon leads to</p>
+              </a>
+            </div>
+          </li>
+          <li class="hex">
+            <div class="hexIn">
+              <a class="hexLink" href="#">
+              <div className='img'><img src="/asserts/images/Homepage_Banner01.png" alt="" /></div>
+                    {/* <div class='img' style='background-image: url(https://images.unsplash.com/44/MIbCzcvxQdahamZSNQ26_12082014-IMG_3526.jpg?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;w=1080&amp;fit=max&amp;s=49dab7a5e4b2e28b5707bc2db974c94b);'></div> */}
+                <h1 id="demo1">This is a title</h1>
+                <p id="demo2">Some sample text about the article this hexagon leads to</p>
+              </a>
+            </div>
+          </li>
+          
+          
+        </ul>
+          </div>
       </div>
 
       <div className="section_container mt-5">
@@ -324,10 +478,7 @@ const Home = () => {
 
         </div>
         </div>
-      
-      <div className="footerSectionButtom">
-        <Footer />
-      </div>
+   
     </>
   )
 }
