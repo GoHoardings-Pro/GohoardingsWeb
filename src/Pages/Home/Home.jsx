@@ -5,6 +5,10 @@ import { Link } from 'react-router-dom'
 import Footer from '../../Components/Headers/Footer/Footer'
 
 const Home = () => {
+  let hex = [];
+  for(let i = 0; i<14;i++){
+    hex.push(i)
+  }
   return (
     <>
     <div className='home_container row'>
@@ -67,7 +71,7 @@ const Home = () => {
         </div>
     </div>
       <div className="section_container section_get">
-        <div className=" section_Impact">
+        <div className=" section_Impact ">
 
           <strong> <hr  />IMPACT WHERE IT MATTERS<hr /></strong>
     
@@ -252,167 +256,20 @@ const Home = () => {
         <div className="section_title mt-5 ">
           <strong>UPDATES</strong>
         </div>
-{/* 
-        <div class="hexagon-gallery">
-      <div class="hex"><img src="https://images.pexels.com/photos/1421264/pexels-photo-1421264.jpeg?cs=srgb&dl=aerial-aerial-photo-aerial-photography-1421264.jpg&fm=jpg" alt="some"/></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-       </div> */}
+
        <div class="grid">
         <ul id="hexGrid">
-          <li class="hex">
-            <div class="hexIn">
-              <a class="hexLink" href="#">
-                <div className='img'><img src="/asserts/companyIcon/01.png" alt="" /></div>
-                {/* <div class='img' style='background-image:url(https://images.unsplash.com/photo-1417436026361-a033044d901f?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;w=1080&amp;fit=max&amp;s=faa4e192f33e0d6b7ce0e54f15140e42);'></div> */}
-                <h1 id="demo1">This is a title</h1>
-                <p id="demo2">Some sample text about the article this hexagon leads to</p>
-              </a>
-            </div>
-          </li>
-          <li class="hex">
-            <div class="hexIn">
-              <a class="hexLink" href="#">
-             
-              <div className='img'><img src="/asserts/images/Homepage_Banner01.png" alt="" /></div>
-                {/* <div class='img' style='background-image:url(https://images.unsplash.com/photo-1417436026361-a033044d901f?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;w=1080&amp;fit=max&amp;s=faa4e192f33e0d6b7ce0e54f15140e42);'></div> */}
-                <h1 id="demo1">This is a title</h1>
-                <p id="demo2">Some sample text about the article this hexagon leads to</p>
-              </a>
-            </div>
-          </li>
-          <li class="hex">
-            <div class="hexIn">
-              <a class="hexLink" href="#">
-              <div className='img'><img src="/asserts/images/Homepage_Banner01.png" alt="" /></div>
-                {/* <div class='img' style='background-image:url(https://images.unsplash.com/photo-1417436026361-a033044d901f?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;w=1080&amp;fit=max&amp;s=faa4e192f33e0d6b7ce0e54f15140e42);'></div> */}
-                <h1 id="demo1">This is a title</h1>
-                <p id="demo2">Some sample text about the article this hexagon leads to</p>
-              </a>
-            </div>
-          </li>
-            
-          <li class="hex">
-            <div class="hexIn">
-              <a class="hexLink" href="#">
-              <div className='img'><img src="/asserts/images/Homepage_Banner01.png" alt="" /></div>
-                    {/* <div class='img' style='background-image: url(https://images.unsplash.com/44/MIbCzcvxQdahamZSNQ26_12082014-IMG_3526.jpg?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;w=1080&amp;fit=max&amp;s=49dab7a5e4b2e28b5707bc2db974c94b);'></div> */}
-                <h1 id="demo1">This is a title</h1>
-                <p id="demo2">Some sample text about the article this hexagon leads to</p>
-              </a>
-            </div>
-          </li>
-          <li class="hex">
-            <div class="hexIn">
-              <a class="hexLink" href="#">
-              <div className='img'><img src="/asserts/images/Homepage_Banner01.png" alt="" /></div>
-                    {/* <div class='img' style='background-image: url(https://images.unsplash.com/44/MIbCzcvxQdahamZSNQ26_12082014-IMG_3526.jpg?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;w=1080&amp;fit=max&amp;s=49dab7a5e4b2e28b5707bc2db974c94b);'></div> */}
-                <h1 id="demo1">This is a title</h1>
-                <p id="demo2">Some sample text about the article this hexagon leads to</p>
-              </a>
-            </div>
-          </li>
-          <li class="hex">
-            <div class="hexIn">
-              <a class="hexLink" href="#">
-              <div className='img'><img src="/asserts/images/Homepage_Banner01.png" alt="" /></div>
-                    {/* <div class='img' style='background-image: url(https://images.unsplash.com/44/MIbCzcvxQdahamZSNQ26_12082014-IMG_3526.jpg?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;w=1080&amp;fit=max&amp;s=49dab7a5e4b2e28b5707bc2db974c94b);'></div> */}
-                <h1 id="demo1">This is a title</h1>
-                <p id="demo2">Some sample text about the article this hexagon leads to</p>
-              </a>
-            </div>
-          </li>
-          <li class="hex">
-            <div class="hexIn">
-              <a class="hexLink" href="#">
-              <div className='img'><img src="/asserts/images/Homepage_Banner01.png" alt="" /></div>
-                    {/* <div class='img' style='background-image: url(https://images.unsplash.com/44/MIbCzcvxQdahamZSNQ26_12082014-IMG_3526.jpg?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;w=1080&amp;fit=max&amp;s=49dab7a5e4b2e28b5707bc2db974c94b);'></div> */}
-                <h1 id="demo1">This is a title</h1>
-                <p id="demo2">Some sample text about the article this hexagon leads to</p>
-              </a>
-            </div>
-          </li>
-          <li class="hex">
-            <div class="hexIn">
-              <a class="hexLink" href="#">
-              <div className='img'><img src="/asserts/images/Homepage_Banner01.png" alt="" /></div>
-                    {/* <div class='img' style='background-image: url(https://images.unsplash.com/44/MIbCzcvxQdahamZSNQ26_12082014-IMG_3526.jpg?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;w=1080&amp;fit=max&amp;s=49dab7a5e4b2e28b5707bc2db974c94b);'></div> */}
-                <h1 id="demo1">This is a title</h1>
-                <p id="demo2">Some sample text about the article this hexagon leads to</p>
-              </a>
-            </div>
-          </li>
-          <li class="hex">
-            <div class="hexIn">
-              <a class="hexLink" href="#">
-              <div className='img'><img src="/asserts/images/Homepage_Banner01.png" alt="" /></div>
-                    {/* <div class='img' style='background-image: url(https://images.unsplash.com/44/MIbCzcvxQdahamZSNQ26_12082014-IMG_3526.jpg?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;w=1080&amp;fit=max&amp;s=49dab7a5e4b2e28b5707bc2db974c94b);'></div> */}
-                <h1 id="demo1">This is a title</h1>
-                <p id="demo2">Some sample text about the article this hexagon leads to</p>
-              </a>
-            </div>
-          </li>
-          <li class="hex">
-            <div class="hexIn">
-              <a class="hexLink" href="#">
-              <div className='img'><img src="/asserts/images/Homepage_Banner01.png" alt="" /></div>
-                    {/* <div class='img' style='background-image: url(https://images.unsplash.com/44/MIbCzcvxQdahamZSNQ26_12082014-IMG_3526.jpg?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;w=1080&amp;fit=max&amp;s=49dab7a5e4b2e28b5707bc2db974c94b);'></div> */}
-                <h1 id="demo1">This is a title</h1>
-                <p id="demo2">Some sample text about the article this hexagon leads to</p>
-              </a>
-            </div>
-          </li>
-          <li class="hex">
-            <div class="hexIn">
-              <a class="hexLink" href="#">
-              <div className='img'><img src="/asserts/images/Homepage_Banner01.png" alt="" /></div>
-                    {/* <div class='img' style='background-image: url(https://images.unsplash.com/44/MIbCzcvxQdahamZSNQ26_12082014-IMG_3526.jpg?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;w=1080&amp;fit=max&amp;s=49dab7a5e4b2e28b5707bc2db974c94b);'></div> */}
-                <h1 id="demo1">This is a title</h1>
-                <p id="demo2">Some sample text about the article this hexagon leads to</p>
-              </a>
-            </div>
-          </li>
-          <li class="hex">
-            <div class="hexIn">
-              <a class="hexLink" href="#">
-              <div className='img'><img src="/asserts/images/Homepage_Banner01.png" alt="" /></div>
-                    {/* <div class='img' style='background-image: url(https://images.unsplash.com/44/MIbCzcvxQdahamZSNQ26_12082014-IMG_3526.jpg?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;w=1080&amp;fit=max&amp;s=49dab7a5e4b2e28b5707bc2db974c94b);'></div> */}
-                <h1 id="demo1">This is a title</h1>
-                <p id="demo2">Some sample text about the article this hexagon leads to</p>
-              </a>
-            </div>
-          </li>
-          <li class="hex">
-            <div class="hexIn">
-              <a class="hexLink" href="#">
-              <div className='img'><img src="/asserts/images/Homepage_Banner01.png" alt="" /></div>
-                    {/* <div class='img' style='background-image: url(https://images.unsplash.com/44/MIbCzcvxQdahamZSNQ26_12082014-IMG_3526.jpg?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;w=1080&amp;fit=max&amp;s=49dab7a5e4b2e28b5707bc2db974c94b);'></div> */}
-                <h1 id="demo1">This is a title</h1>
-                <p id="demo2">Some sample text about the article this hexagon leads to</p>
-              </a>
-            </div>
-          </li>
-          <li class="hex">
-            <div class="hexIn">
-              <a class="hexLink" href="#">
-              <div className='img'><img src="/asserts/images/Homepage_Banner01.png" alt="" /></div>
-                    {/* <div class='img' style='background-image: url(https://images.unsplash.com/44/MIbCzcvxQdahamZSNQ26_12082014-IMG_3526.jpg?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;w=1080&amp;fit=max&amp;s=49dab7a5e4b2e28b5707bc2db974c94b);'></div> */}
-                <h1 id="demo1">This is a title</h1>
-                <p id="demo2">Some sample text about the article this hexagon leads to</p>
-              </a>
-            </div>
-          </li>
-          
+          {
+            hex.map((el,i)=>(
+              <li class="hex">
+              <div class="hexIn">
+               <div className='hexLink' >
+                  <div className='img'><img src={`/asserts/companyIcon/${i+1} (1).png`} alt="" /></div>
+               </div>
+              </div>
+            </li>
+            ))
+          }
           
         </ul>
           </div>

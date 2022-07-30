@@ -6,6 +6,7 @@
   .footer {
       background-color:RGB(31, 27, 32);
       color: #fff;
+      margin-top: 50px;
   }
   .footer-wave-svg {
       background-color: transparent;

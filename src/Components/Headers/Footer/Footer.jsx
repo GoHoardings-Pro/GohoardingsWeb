@@ -6,7 +6,7 @@ const Footer = () => {
     <div class="pg-footer">
     <footer class="footer">
       <svg class="footer-wave-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 100" preserveAspectRatio="none">
-        <path class="footer-wave-path" d="M851.8,100c125,0,288.3-45,348.2-64V0H0v44c3.7-1,7.3-1.9,11-2.9C80.7,22,151.7,10.8,223.5,6.3C276.7,2.9,330,4,383,9.8 c52.2,5.7,103.3,16.2,153.4,32.8C623.9,71.3,726.8,100,851.8,100z"></path>
+        {/* <path class="footer-wave-path" d="M951.8,100c125,0,288.3-45,348.2-64V0H0v44c3.7-1,7.3-1.9,11-2.9C80.7,22,151.7,10.8,223.5,6.3C276.7,2.9,330,4,383,9.8 c52.2,5.7,103.3,16.2,153.4,32.8C623.9,71.3,726.8,100,851.8,100z"></path> */}
       </svg>
       <div class="footer-content">
         <div class="footer-content-column">
@@ -16,18 +16,14 @@ const Footer = () => {
             </a>
           </div>
           <div class="footer-menu">
-            <h2 class="footer-menu-name"> Get Started</h2>
-            <ul id="menu-get-started" class="footer-menu-list">
-              <li class="menu-item menu-item-type-post_type menu-item-object-product">
-                <a href="#">Start</a>
-              </li>
-              <li class="menu-item menu-item-type-post_type menu-item-object-product">
-                <a href="#">Documentation</a>
-              </li>
-              <li class="menu-item menu-item-type-post_type menu-item-object-product">
-                <a href="#">Installation</a>
-              </li>
-            </ul>
+            <p>India’s Largest outdoor 
+Advertisement Company <br /><br />
+It’s advertisement network spread
+across 130 cities with more than 1.2
+lakh OOH and DOOH sites offering 
+hassle-free branding experience
+at an unmatched prices.</p>
+            
           </div>
         </div>
         <div class="footer-content-column">
