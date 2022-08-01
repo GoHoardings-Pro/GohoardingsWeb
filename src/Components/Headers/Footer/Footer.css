@@ -23,7 +23,7 @@
   .footer-content {
       margin-left: auto;
       margin-right: auto;
-      max-width: 1230px;
+      max-width: 1530px;
       padding: 40px 15px 450px;
       position: relative;
   }
@@ -255,6 +255,7 @@
       padding: 40px 15px 1050px;
       position: relative;
     }
+    
   }
   @media (min-width:600px) and (max-width: 800px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
     .footer-content {

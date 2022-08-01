@@ -11,8 +11,9 @@ const Home = () => {
   }
   return (
     <>
+    
     <div className='home_container row'>
-        <div className="home_titles col-5">
+        <div className="home_titles col-sm-5">
           <div className="home_title">
             <h1>India's <br />Largest Outdoor <br />Advartising Agency</h1>
 
@@ -26,7 +27,7 @@ const Home = () => {
             <Link to={'/'}>Lorme</Link>
           </div>
         </div>
-        <div className="home_banner col-5 ">
+        <div className="home_banner col-sm-5 ">
           
           <img src="/asserts/images/Homepage_Banner01.png" alt="" />
           <svg className='svgBanner' width="318" height="200" viewBox="0 0 318 200" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -85,13 +86,13 @@ const Home = () => {
 
             <i class="fa-solid fa-location-dot"></i>
             <input type="text" placeholder='' />
-            <input type="submit" value='search' />
+            <input type="submit" value='search' placeholder=' Delhi ..' />
           </form>
         </div>
         <div className="section_reachs">
           <div className="section_reach">
             <strong>100</strong>
-            <span>LOCAL &  INTERNATIONAL MARKET</span>
+            <span>LOCAL  MARKET</span>
           </div>
           <div className="section_reach">
             <strong>100 <span>M+</span></strong>
@@ -122,6 +123,9 @@ const Home = () => {
             <div className=" col-4 col-md-4 frame-square">
                 <img src="/asserts/icons/home-office.png" alt="" />
             </div>
+            <div className=" col-4 col-md-4 frame-square fream_last">
+                <img src="/asserts/icons/home-office.png" alt="" />
+            </div>
           </div>
           <div className="row ">
             <div className="col-4 col-md-4 frame-square">
@@ -133,6 +137,10 @@ const Home = () => {
 
             </div>
             <div className=" col-4 col-md-4 frame-square">
+                <img src="/asserts/icons/delivery-truck.png" alt="" />
+
+            </div>
+            <div className=" col-4 col-md-4 frame-square fream_last">
                 <img src="/asserts/icons/delivery-truck.png" alt="" />
 
             </div>
@@ -191,17 +199,18 @@ const Home = () => {
         </div>
         <div className="update_cards">
         <div className="row mb-2 ">
-          <div className="col-4 p-3">
+          <div className="col-sm-4 p-3">
             <div className="update_img">
+          <img src="/asserts/images/Homepage_Banner01.png" alt="" />
 
             </div>
           </div>
-          <div className="col-4 p-3 marginLeft" >
+          <div className="col-sm-4 p-3 marginLeft" >
             <div className="update_title_top"> IN THE PRESS </div>
             <div className="update_title">OBIE  AWARD </div>
             <div className="update_subtitle">OUTFRONT STUDIOS Dominates At The Out Of Home Advertising Association’s OBIEAward </div>
           </div>
-          <div className="col-4 p-3">
+          <div className="col-sm-4 p-3">
           <div className="update_title_top"> IN THE PRESS </div>
             <div className="update_title">2020 Result </div>
             <div className="update_subtitle">OUTFRONT Media Reports first quarter
@@ -211,36 +220,38 @@ const Home = () => {
         </div>
         <div className="row mb-2">
           
-        <div className="col-4 p-3">
+        <div className="col-sm-4 p-3">
             <div className="update_title_top"> IN THE PRESS </div>
             <div className="update_title">OBIE  AWARD </div>
             <div className="update_subtitle">OUTFRONT STUDIOS Dominates At The Out Of Home Advertising Association’s OBIEAward </div>
           </div>
-          <div className="col-4 p-3 marginLeft">
+          <div className="col-sm-4 p-3 marginLeft">
           <div className="update_title_top"> IN THE PRESS </div>
             <div className="update_title">2020 Result </div>
             <div className="update_subtitle">OUTFRONT Media Reports first quarter
 2020 Result </div>
           
           </div>
-          <div className="col-4 p-3">
+          <div className="col-sm-4 p-3">
             <div className="update_img">
+            <img src="/asserts/images/Homepage_Banner01.png" alt="" />
 
             </div>
           </div>
         </div>
         <div className="row mb-2">
-          <div className="col-4 p-3">
+          <div className="col-sm-4 p-3">
             <div className="update_img">
+            <img src="/asserts/images/Homepage_Banner01.png" alt="" />
 
             </div>
           </div>
-          <div className="col-4 p-3 marginLeft">
+          <div className="col-sm-4 p-3 marginLeft">
             <div className="update_title_top"> IN THE PRESS </div>
             <div className="update_title">OBIE  AWARD </div>
             <div className="update_subtitle">OUTFRONT STUDIOS Dominates At The Out Of Home Advertising Association’s OBIEAward </div>
           </div>
-          <div className="col-4 p-3">
+          <div className="col-sm-4 p-3">
             <div className="update_title_top"> IN THE PRESS </div>
             <div className="update_title">2020 Result </div>
             <div className="update_subtitle">OUTFRONT Media Reports first quarter
@@ -285,7 +296,7 @@ const Home = () => {
 
       
         <div className="box-form row">
-            <div className="left col-6">
+            <div className="left col-sm-6">
               <div className="left_tities">
               <div className="left_title">
                 <strong><span>Come</span> to see us!</strong>
@@ -305,7 +316,7 @@ const Home = () => {
                 </div>
             </div>
 
-            <form className="right col-6" >
+            <form className="right col-sm-6" >
             <div className="left_tities">
               <div className="left_title">
                 <strong>Let's<span> talk</span></strong>
@@ -334,7 +345,7 @@ const Home = () => {
             </form>
 
         </div>
-        </div>
+      </div>
    
     </>
   )
